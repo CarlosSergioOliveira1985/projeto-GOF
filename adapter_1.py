@@ -33,7 +33,6 @@ class NewControl:
     def move_top(self)-> None:
         print('new Movedo para cima')
 
-
     def move_left(self)-> None:
         print('new Movedo para esquerda')
 
@@ -60,6 +59,7 @@ class ControlAdapter:
         self.new_control.move_rigth()
 
 class ControlAdapter2(Control, NewControl):
+    
 
     def top(self)-> None:
         self.move_top()
